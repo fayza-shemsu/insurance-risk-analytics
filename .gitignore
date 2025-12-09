@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (tracked by DVC, NOT Git)
+data/raw/*
+data/processed/*
+
+# DVC
+.dvc/cache
+.dvc/tmp
+
+# OS files
+.DS_Store
+Thumbs.db
