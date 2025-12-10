@@ -9,10 +9,10 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Data (tracked by DVC, NOT Git)
 data/raw/*
 data/processed/*
+!data/raw/*.dvc
+!data/processed/*.dvc
 
 # DVC
 .dvc/cache
